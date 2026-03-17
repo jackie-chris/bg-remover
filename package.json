@@ -1,0 +1,21 @@
+{
+  "name": "bg-remover",
+  "version": "1.0.0",
+  "description": "Image background remover tool powered by Cloudflare Workers and Remove.bg API",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "background-remover",
+    "image-processing",
+    "cloudflare-workers",
+    "remove-bg"
+  ],
+  "author": "jackie-chris",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
