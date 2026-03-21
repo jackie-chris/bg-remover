@@ -1,6 +1,7 @@
 name = "bg-remover"
 main = "worker/index.js"
 compatibility_date = "2024-01-01"
+account_id = "088c16bd9d3518771481c779af778f42"
 
 # 静态资源托管
 [site]
