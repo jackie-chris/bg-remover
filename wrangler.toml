@@ -7,6 +7,9 @@ account_id = "088c16bd9d3518771481c779af778f42"
 [site]
 bucket = "./public"
 
+# Pages 配置
+pages_build_output_dir = "public"
+
 # 环境变量（敏感信息通过 wrangler secret 设置）
 # wrangler secret put REMOVEBG_API_KEY
 
@@ -15,7 +18,7 @@ bucket = "./public"
 port = 8787
 local_protocol = "http"
 
-# 生产环境路由
+# 生产环境路由（需要先在 Cloudflare 添加域名）
 # routes = [
-#   { pattern = "bg-remover.yourdomain.com/*", zone_name = "yourdomain.com" }
+#   { pattern = "imagebackgroundremover.hair/*", zone_name = "hair" }
 # ]
