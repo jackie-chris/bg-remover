@@ -17,6 +17,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 088c16bd9d3518771481c779af778f42
-          projectName: image-background-remover
+          projectName: bg-remover-api
           directory: public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
